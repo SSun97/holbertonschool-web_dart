@@ -3,7 +3,7 @@ void outer(String name, String id) {
     String firstName = nameString[0];
     String lastName = nameString[1][0] + ".";
     String inner() {
-        return "Hello Agent ${lastName} ${firstName} your id is ${id}\n";
+        return "Hello Agent ${lastName} ${firstName} your id is ${id}";
     }
     print(inner());
 }
