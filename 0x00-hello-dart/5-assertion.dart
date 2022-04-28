@@ -2,6 +2,7 @@ void main(List<String> args) {
   /*
   Write Your code below 
    */
-   assert(int.parse(args[0]) >= 80);
+   var nb = int.parse(args[0]);
+   assert( nb >= 80);
    print("You Passed");
 }
