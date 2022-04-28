@@ -4,10 +4,10 @@ void main(List<String> args) {
   Write Your code below 
    */
    if (number > 0) {
-     print("$number is Positive");
+     print("$number is positive");
    } else if (number < 0) {
-     print("$number is Negative");
+     print("$number is negative");
    } else {
-     print("$number is Zero");
+     print("$number is zero");
    }
 }
