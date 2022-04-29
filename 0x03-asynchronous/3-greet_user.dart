@@ -3,7 +3,7 @@ import '3-main.dart';
 import 'dart:convert';
 Future<String> greetUser() async {
   final String user = await fetchUserData();
-  return 'hello ${json.decode(user)['username']}\n';
+  return 'hello ${json.decode(user)['username']}';
 }
 Future<String> loginUser() async {
   final bool credentials = await checkCredentials();
