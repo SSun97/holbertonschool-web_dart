@@ -10,6 +10,6 @@ Future<String> generateQuote(id) async {
         String quote = jsonResponse[0]['quote'];
             return '$author : $quote';
     } catch (e) {
-        return 'There is no quotes';
+        return 'There are no quotes';
     }
 }
